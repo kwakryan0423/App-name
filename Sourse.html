@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(45deg, #b94a00, #310153, #ca02ca, #01a20c);
+            background-size: 300% 300%;
+            animation: gradientAnimation 10s ease infinite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 2em;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour change</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <div class="box"></div>
+    <input type="text"/>
+</center>
+    <script src="script.js"></script>
+</body>
+</html>
